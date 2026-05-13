@@ -6,4 +6,12 @@ Personal Snowflake trial sprint: SQL scripts, notes, and the learning plan in `s
 
 - `snowflake_trial_sprint.md` — 6-day plan (data engineering, analytics, admin, catalog/lineage, light Snowpark).
 
-Add a `sql/` folder as you create scripts in Snowsight or locally.
+## SQL scripts (`sql/`)
+
+| File | Purpose |
+|------|---------|
+| `00_day1_setup_and_load.sql` | Warehouse, DB, schemas, stage, raw table, `COPY INTO` |
+| `01_day2_activity1_staging_contract.sql` | Day 2 diagnostics + staging contract |
+| `02_day2_staging_online_retail_lines.sql` | `staging.online_retail_lines` view (types, flags, `line_revenue`) |
+
+Run scripts in Snowsight (workspace or worksheet) or sync from Git.

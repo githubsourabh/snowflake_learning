@@ -1,3 +1,5 @@
+-- After contract sign-off, implement: sql/02_day2_staging_online_retail_lines.sql
+--
 -- =============================================================================
 -- Day 2 — Activity 1: Define the staging contract
 -- Goal: Decide target column names, types, and data-quality rules BEFORE you
