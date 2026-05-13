@@ -72,12 +72,11 @@ CREATE OR REPLACE TABLE online_retail_raw (
 -- LIST @retail_lab.raw.data_load;
 
 -- Load into raw table (keep only one CSV in the stage for this pattern):
--- COPY INTO online_retail_raw
---   FROM @retail_lab.raw.data_load
---   PATTERN = '.*\\.csv'
---   FILE_FORMAT = csv_ff
---   MATCH_BY_COLUMN_NAME = CASE_INSENSITIVE
---   ON_ERROR = 'CONTINUE';
+COPY INTO retail_lab.raw.online_retail_raw
+  FROM @retail_lab.raw.data_load
+  PATTERN = '.*\.csv'
+  FILE_FORMAT = retail_lab.raw.csv_ff
+  ON_ERROR = 'CONTINUE';
 
 -- If your CSV uses different headers, either rename columns in the file to match
 -- or replace this COPY with an explicit column list / different table definition.
