@@ -1,0 +1,2 @@
+ALTER API INTEGRATION GITHUB_INTEGRATION 
+SET API_ALLOWED_PREFIXES = ('https://github.com/githubsourabh/');
