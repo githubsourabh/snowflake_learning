@@ -14,5 +14,10 @@ Personal Snowflake trial sprint: SQL scripts, notes, and the learning plan in `s
 | `01_day2_activity1_staging_contract.sql` | Day 2 diagnostics + staging contract |
 | `02_day2_staging_online_retail_lines.sql` | `staging.online_retail_lines` view (types, flags, `line_revenue`) |
 | `03_day3_analytics.sql` | `analytics` KPI fact + reporting views (`rpt_*`) |
+| `04_day4_streams_tasks.sql` | Stream on raw, staging table, test inserts, task |
 
 Run scripts in Snowsight (workspace or worksheet) or sync from Git.
+
+## Notes
+
+- `notes/day4_activity1_streams_and_tasks.md` — Day 4 Activity 1 (stream/task concepts)
